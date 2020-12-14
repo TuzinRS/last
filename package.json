@@ -1,0 +1,23 @@
+{
+  "name": "lastinho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuzinRS/last.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuzinRS/last/issues"
+  },
+  "homepage": "https://github.com/TuzinRS/last#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
