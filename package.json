@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/TuzinRS/last#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "live-server": "^1.2.1",
+    "sass": "^1.30.0"
   }
 }
