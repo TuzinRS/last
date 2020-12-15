@@ -11,11 +11,23 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.btn {
+  margin-left: 4px;
+}
+
 .apresentação {
   margin-top: 300px;
   width: 5599px;
   height: 3733px;
   background-image: url("../images/natal1.jpg");
+}
+
+#destaques {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=main.css.map */

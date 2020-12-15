@@ -12,7 +12,9 @@ body,{
   height: 100%;
   background-color: $background;
 }
-
+.btn{
+  margin-left: 4px;
+}
 .apresentação{
   margin-top: 300px;
   width: 5599px;
@@ -20,6 +22,10 @@ body,{
   background-image: url("../images/natal1.jpg") ;
 }
 
-.space{
-
+#destaques{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  flex-direction: row;
 }
