@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<nav>
+    <div class="contato">Contato</div>
+    
+    <p>Dúvidas? Entre em contato conosco</p>
+</nav>
+<body>
+    <section>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <p>Se você gostaria de obter maiores informações sobre nossos serviços,
+                precisa de detalhes sobre planos ou tem dúvidas sobre qual é a melhor
+                alternativa para sua empresa, nossa equipe ligará grátis para qualquer
+                telefone fixo e um dos nossos consultores fará o possível para ajudá-lo.</p>
+            <p>Você pode usar o seguinte formulário para nos contactar. Responderemos em menos de 24h.</p>
+            <div>
+                <label for="name">Nome:</label><br/>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label><br/>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="msg">Assunto:</label><br/>
+                <input type="msg" id="msg">
+            </div>
+            <p>Departamento:</p>
+                <select name="Departamento">
+                        <option>Contato</option>
+                        <option>Vendas</option>
+                        <option>Suporte</option>
+                        <option>Abuso</option>
+                </select>
+            <div>
+                <label for="msg">Mensagem:</label><br/>
+                <textarea rows="5" cols="30"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar Email</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
