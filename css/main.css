@@ -1,0 +1,21 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.apresentação {
+  margin-top: 300px;
+  width: 5599px;
+  height: 3733px;
+  background-image: url("../images/natal1.jpg");
+}
+
+/*# sourceMappingURL=main.css.map */
