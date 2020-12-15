@@ -28,6 +28,14 @@ body{
   justify-content: space-between;
   flex-flow: wrap;
   flex-direction: row;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  padding: 8px;
+  font-weight: bolder;
+  font-size: 3em;
 }
 
 #card{
