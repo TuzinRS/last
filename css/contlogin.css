@@ -79,7 +79,7 @@ nav ul input {
 
 .texto {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: ;
 }
 
 nav {
@@ -88,6 +88,7 @@ nav {
   color: white;
   padding: 2.5em;
 }
+
 
 
 
@@ -107,7 +108,7 @@ form {
   padding: 1em;
   border: 1px solid #CCC;
   background: #ddebec;
-  margin: center;
+  margin: ;
   border-radius: 10px;
 }
 
