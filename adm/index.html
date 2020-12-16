@@ -1,28 +1,59 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
+<html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>Login :: ADM</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+        <title>Lastinho</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css"/>
         <link rel="stylesheet" href="../css/bootstrap-grid.min.css"/>
         <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="icon" href="../images/lastinho_v2_00011.png"/>
+        <script src="https://kit.fontawesome.com/2af20cbfa4.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2af20cbfa4.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
-        <div class="container c">
-            <h1>Painel do ADM</h1>
-            <div class="card" style="width: 22em;">
-                <form method="post">
-                    <div class="form-control">
-                        <label for="id" class="col-form-label">Número do ID: </label>
-                        <input type="number" maxlength="6" minlength="6" placeholder="6 dígitos" id="id" name="id"/>
+        <noscript>
+            <h1>Nosso site não foi feito para rodar na sua máquina, por favor, considere trocar de dispositivo.</h1>
+        </noscript>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="navbar-brand">
+                <img src="images/lastinho_v2_00011.png" alt=""/>
+                Lastinho
+            </div>
+            <div class="d-inline-flex" style="padding: 8px;">
+                <a href="login.html" class="btn btn-primary nav-item"><i class="far fa-user"></i>&nbsp;<var>Você</var></a>
+                <a href="share.html" class="btn btn-primary nav-item"><i class="fas fa-share-alt"></i></a>
+                <a href="" class="btn btn-primary nav-item"><i class="fas fa-bell"></i></a>
+                <a href="" class="btn btn-primary nav-item"><i class="fas fa-search"></i></a>
+                <a href="clinte.html" class="btn btn-primary nav-item"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+        <div class="container-sm d-inline-flex" style="margin-top: 120px; padding: 16px; background-color: rgb(83,0,163)">
+            <div class="card" style="width: 22em; padding: 16px;">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email </label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <span id="emailHelp" class="form-text">Use seu email fornecido pelo dept. de TI.</span>
                     </div>
-                    <div>
-                        <label for="senha">Senha: </label>
-                        <input type="password" name="senha" minlength="8" id="senha" placeholder="********"/>
+                    <div class="mb-3">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="password" class="form-control" minlength="8" id="senha" aria-describedby="senhaHelp">
+                        <span classe="senhaHelp" class="form-text">Sua senha tem no mínimo 8 dígitos, caso tenha esquecido entre em contato com o TI.</span>
                     </div>
-                    <input type="submit" name="entrar" id="entrar" class="btn btn-success"/>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="logado">
+                        <label class="form-check-label" for="logado">Confio nesse disositivo</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
+            <div class="d-inline-flex" style="color: #fff">
+                <h2>Adm, faça seu login</h2>
+            </div>
         </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
