@@ -38,10 +38,15 @@ h2 {
   font-size: 3em;
 }
 
-#card {
-  margin-bottom: 8px;
-  text-align: center;
+.card {
+  margin-bottom: 16px;
   align-items: center;
+}
+
+.neguin {
+  z-index: 90;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: available;
 }
 
 /*# sourceMappingURL=main.css.map */
